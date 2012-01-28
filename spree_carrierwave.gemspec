@@ -4,7 +4,7 @@ require "spree_carrierwave/version"
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_carrierwave'
+  s.name        = 'spree-carrierwave'
   s.version     = SpreeCarrierwave::VERSION
   s.summary     = 'Spree extension to use carrierwave/fog instead of paperclip.'
   s.description = s.summary
