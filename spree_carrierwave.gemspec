@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.require_paths = ['lib/spree_carrierwave']
+  s.require_paths = ['lib']
 
   s.add_dependency 'spree_core', '~> 1.0.0.rc1'
   s.add_dependency 'carrierwave', '~> 0.5.8'
