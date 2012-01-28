@@ -24,7 +24,9 @@ Create an initializer for CarrierWave
 
     # See the section titled 'Using Amazon S3' at https://github.com/jnicklas/carrierwave
     # for full options.
-    #
+
+    require 'carrierwave'
+
     CarrierWave.configure do |config|
       config.fog_credentials = {
         :provider               => 'AWS',
