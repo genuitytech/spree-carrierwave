@@ -15,19 +15,19 @@ Spree::Image.class_eval do
 
     # These are the versions defined in Spree::Image
     version :mini do
-      process :resize_to_fill => [48, 48]
+      process :resize_to_limit => [48, 48]
     end
 
     version :small do
-      process :resize_to_fill => [100, 100]
+      process :resize_to_limit => [100, 100]
     end
 
     version :product do
-      process :resize_to_fill => [240, 240]
+      process :resize_to_limit => [240, 240]
     end
 
     version :large do
-      process :resize_to_fill => [600, 600]
+      process :resize_to_limit => [600, 600]
     end
   end
 
