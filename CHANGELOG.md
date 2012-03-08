@@ -1,3 +1,7 @@
+# 0.2.0
+
+* Now using `:resize_to_limit` instead of `:resize_to_fill`
+
 # 0.1.2
 
 * Relaxed dependency on `spree_core`
